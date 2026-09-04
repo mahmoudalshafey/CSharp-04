@@ -8,6 +8,8 @@ namespace C__Basics04
             //PrintWelcomeMessage();  ---> Ques 3
 
             //PrintBookTitle("Clean Code"); ---> Ques 4
+
+            //AddBounesPages(400); ---> Ques 5
         }
         #region Ques 1
 
@@ -39,9 +41,16 @@ namespace C__Basics04
         #endregion
 
         #region Ques 5
+        //public static void AddBounesPages(int pages) {
+        //    pages += 50;
+        //    Console.WriteLine($"pages after bounes {pages}");
+        //}
+        //i expect to see the sum of pages after adding 50
+        //because we add the bounes to the original pages
         #endregion
 
         #region Ques 6
+            
         #endregion
 
         #region Ques 7
