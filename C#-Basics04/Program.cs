@@ -41,7 +41,9 @@ namespace C__Basics04
             //PrintBookInfo("Arabic");
             //PrintBookInfo("English", 500);
 
-
+            //---> Ques 11
+            //PrintBookInfo(title: "Arabic" , pages : 200);
+            //PrintBookInfo(pages: 400, title : "English"); 
         }
         #region Ques 1
 
@@ -142,6 +144,10 @@ namespace C__Basics04
         #endregion
 
         #region Ques 11
+        //public static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine($"Title: {title}, Pages: {pages}");
+        //}
         #endregion
     }
 }
