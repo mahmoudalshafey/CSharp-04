@@ -1,15 +1,23 @@
-﻿using System.Threading.Channels;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Threading.Channels;
 
 namespace C__Basics04
 {
     internal class Program
     {
-        static void Main(string[] args){
+        static void Main(string[] args)
+        {
             //PrintWelcomeMessage();  ---> Ques 3
 
             //PrintBookTitle("Clean Code"); ---> Ques 4
 
             //AddBounesPages(400); ---> Ques 5
+
+            //---> Ques 6
+            //double[]prices = { 25.5, 40.0};
+            //ApplyDiscount(prices);
+            //Console.WriteLine($"1st element after method: {prices[0]}");
+
         }
         #region Ques 1
 
@@ -50,7 +58,17 @@ namespace C__Basics04
         #endregion
 
         #region Ques 6
-            
+        //public static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5.0;
+        //    Console.WriteLine($"1st element inside method: {prices[0]}");
+        //}
+
+        //expected ?
+        //      subtract 5 from 1st elemnt inside & after method.
+        //why ?
+        //      because passing by value - refrence type.
+
         #endregion
 
         #region Ques 7
@@ -67,5 +85,5 @@ namespace C__Basics04
 
         #region Ques 11
         #endregion
-    }    
+    }
 }
