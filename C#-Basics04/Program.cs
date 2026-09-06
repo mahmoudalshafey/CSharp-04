@@ -23,6 +23,17 @@ namespace C__Basics04
             //AddBounesPages(ref pages);
             //Console.WriteLine($"pages after method {pages}");
 
+            //--->Ques 8
+            //double[] prices = { 20.0,30.0,40.0};
+            //ReplaceArray(ref prices);
+            //Console.WriteLine("replacing after method");
+            //foreach (double num in prices)
+            //{
+            //    Console.Write($"{num} ");
+            //}
+            //Console.WriteLine();
+
+
         }
         #region Ques 1
 
@@ -89,6 +100,16 @@ namespace C__Basics04
         #endregion
 
         #region Ques 8
+        //public static void ReplaceArray(ref double[] prices) { 
+        //    prices = new double [] { 10.0 , 12.5 , 15.0 };
+        //    Console.WriteLine("replacing inside method");
+        //    foreach(double num in prices){
+        //        Console.Write($"{num} ");
+        //    }
+        //    Console.WriteLine();
+        //    Console.WriteLine(prices.Length);
+
+        //}
         #endregion
 
         #region Ques 9
