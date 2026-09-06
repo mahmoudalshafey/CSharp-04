@@ -44,6 +44,9 @@ namespace C__Basics04
             //---> Ques 11
             //PrintBookInfo(title: "Arabic" , pages : 200);
             //PrintBookInfo(pages: 400, title : "English"); 
+
+            //---> Ques 12
+            //PrintAllTitles("Algebra", "Mehcanics", "Math1");
         }
         #region Ques 1
 
@@ -147,6 +150,14 @@ namespace C__Basics04
         //public static void PrintBookInfo(string title, int pages = 300)
         //{
         //    Console.WriteLine($"Title: {title}, Pages: {pages}");
+        //}
+        #endregion
+
+        #region Ques 12
+        //public static void PrintAllTitles(params string[] titles) {
+        //    foreach (string title in titles) {
+        //        Console.WriteLine(title);
+        //    }
         //}
         #endregion
     }
