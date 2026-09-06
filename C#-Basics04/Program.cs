@@ -17,6 +17,11 @@ namespace C__Basics04
             //double[]prices = { 25.5, 40.0};
             //ApplyDiscount(prices);
             //Console.WriteLine($"1st element after method: {prices[0]}");
+           
+            //---> Ques 7
+            //int pages = 400;
+            //AddBounesPages(ref pages);
+            //Console.WriteLine($"pages after method {pages}");
 
         }
         #region Ques 1
@@ -72,6 +77,15 @@ namespace C__Basics04
         #endregion
 
         #region Ques 7
+        //public static void AddBounesPages(ref int pages)
+        //{
+        //    pages += 50;
+        //    Console.WriteLine($"pages iside method {pages}");
+        //}
+
+        //different ?
+        //        here we pass by ref - value type.
+        //        
         #endregion
 
         #region Ques 8
