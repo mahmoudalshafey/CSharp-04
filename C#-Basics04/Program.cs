@@ -17,7 +17,7 @@ namespace C__Basics04
             //double[]prices = { 25.5, 40.0};
             //ApplyDiscount(prices);
             //Console.WriteLine($"1st element after method: {prices[0]}");
-           
+
             //---> Ques 7
             //int pages = 400;
             //AddBounesPages(ref pages);
@@ -36,6 +36,10 @@ namespace C__Basics04
             //---> Ques 9
             //double price;
             //TryGetPrice("Clean Code", out price);
+
+            ////---> Ques 10
+            //PrintBookInfo("Arabic");
+            //PrintBookInfo("English", 500);
 
 
         }
@@ -131,6 +135,10 @@ namespace C__Basics04
         #endregion
 
         #region Ques 10
+        //public static void PrintBookInfo(string title, int pages = 300) {
+        //    Console.WriteLine($"Title: {title}, Pages: {pages}");
+        //}
+
         #endregion
 
         #region Ques 11
