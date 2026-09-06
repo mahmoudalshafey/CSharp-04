@@ -33,6 +33,10 @@ namespace C__Basics04
             //}
             //Console.WriteLine();
 
+            //---> Ques 9
+            //double price;
+            //TryGetPrice("Clean Code", out price);
+
 
         }
         #region Ques 1
@@ -113,6 +117,17 @@ namespace C__Basics04
         #endregion
 
         #region Ques 9
+        //public static bool TryGetPrice(string title, out double price) { 
+        //    if (title == "Clean Code")
+        //    {
+        //        price = 25.5;
+        //        Console.WriteLine(price);
+        //        return true;
+        //    }
+        //    price = 0.0;
+        //    Console.WriteLine("not found");
+        //    return false;
+        //}
         #endregion
 
         #region Ques 10
